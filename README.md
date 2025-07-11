@@ -24,6 +24,8 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\RCM
 - Back in the Permissions window, give **Administrators** **Full Control**.
 -  If you encounter **"Access Denied"**, repeat the steps above to ensure proper permissions.
 ![GracePeriod Permissions Screenshot](access-denaied.jpg)
+- under permission go to advanced and click on change button infront of  owner : SYSTEM      and select user like Administrator 
+then applay and ok 
 5. **Delete the Key**:
 - On the right side of the `GracePeriod` folder, delete the key shown (usually a binary key).
 
