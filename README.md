@@ -2,15 +2,14 @@
 
 
 
-
 how to remove RDP lisence issue on window server
 ====================================================================================
 # got to registry edit
 wind+R
 regedit
 #go to the following path
-Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\RCM
-# right click on RCM and then permission 
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\RCM\GracePeriod
+# right click on GracePeriod and then permission 
 give a full control for administrator 
 #if you get 'access denaid' error 
 under permission go to advanced and click on change button infront of  owner : SYSTEM
